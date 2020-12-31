@@ -76,32 +76,9 @@ function diamond(num){
     result = ``;
   }
 }
+// test
 diamond(3);
 diamond(4);
 diamond(5);
 diamond(6);
 diamond(10);
-
-/// i = 5 j = 4
-
-/*
-num = 3
-  $
- $ $
-$   $  i = 2 j = 4
- $ $   i = 3 j = 3
-  $    i = 4 j = 2
-
-num = 5
-    $    
-   $ $   
-  $   $ 
- $     $ 
-$       $
- $     $    i = 5 j = 7
-  $   $     i = 6 j = 6
-   $ $      i = 7 j = 5
-    $       i = 8 j = 4
-
-
-*/

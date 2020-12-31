@@ -25,7 +25,6 @@ function convertWeight(summation, unitWeight){
   let indexUnitWeight = 0;
   let indexForSum = 0;
   let resultNumber = 0;
-  let result = ``;
 
   for (let i = 0; i < unitType.length; i++){
       if (unitWeight === unitType[i]){

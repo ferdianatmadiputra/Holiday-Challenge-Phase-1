@@ -36,9 +36,6 @@ function getMoneyChange(money) {
   if (money > moneyStocksTotal){
     console.log(`Maaf uang kembalian tidak cukup`);
   } else {
-    // console.log(changeUnit,`changeUnit`);
-    // console.log(count,`count`);
-
     for (let i = 0; i < changeUnit.length; i++){
       // console.log(`${money} money dan ${changeUnit[i]} pecahan ${count[i]} jumlah`)
       if (money >= changeUnit[i] && moneyStocks[changeUnit[i]] > 0){
